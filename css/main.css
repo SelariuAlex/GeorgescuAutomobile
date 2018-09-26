@@ -60,7 +60,7 @@ body {
   color: var(--mainWhite);
 }
 .height-max {
-  min-height: calc(100vh - 76px);
+  min-height: calc(100vh - 59px);
   background: url("../img/headerBcg.jpeg");
   background-position: center;
   background-size: cover;
@@ -70,7 +70,18 @@ body {
 .title {
   font-weight: 700;
   font-size: 1.5rem;
+  background: rgba(0, 0, 0, 0.4);
+  border-left: 0.3rem solid var(--mainBlue);
 }
 .secondary-title {
   font-size: 1.2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 3rem;
+  }
+  .secondary-title {
+    font-size: 1.8rem;
+  }
 }
