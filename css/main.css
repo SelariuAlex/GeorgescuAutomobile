@@ -93,3 +93,13 @@ body {
     font-size: 1.8rem;
   }
 }
+
+/* skills */
+.oferta-icon {
+  font-size: 3rem;
+  color: var(--mainYellow);
+  background: var(--mainGrey);
+}
+.oferta-icon:hover {
+  color: var(--mainBlue);
+}
