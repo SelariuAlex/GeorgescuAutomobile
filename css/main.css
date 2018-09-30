@@ -111,7 +111,7 @@ body {
 /* skills */
 .oferta-icon {
   font-size: 3rem;
-  color: var(--mainYellow);
+  color: var(--mainBlue);
   background: var(--mainGrey);
 }
 .oferta-icon:hover {
@@ -121,6 +121,15 @@ body {
 /* inventory */
 .inventory {
   background: var(--mainGrey);
+}
+.inventory .btn {
+  background: var(--mainBlue);
+  color: var(--mainWhite);
+  transition: all 0.5s ease;
+}
+.inventory .btn:hover {
+  background: var(--mainWhite);
+  color: var(--mainBlue);
 }
 .car-img {
   border-top-left-radius: 0;
