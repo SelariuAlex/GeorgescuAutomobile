@@ -135,3 +135,24 @@ body {
 .car-value:hover {
   clip-path: polygon(0% 0, 100% 0, 100% 100%, 0 100%);
 }
+
+/* question */
+.question {
+  background: url("../img/questionBcg.jpeg") center/cover fixed no-repeat;
+}
+.question-grey {
+  background: rgba(230, 230, 230, 0.75);
+}
+.question-yellow {
+  background: rgba(60, 60, 60, 0.75);
+  color: var(--mainWhite);
+}
+.question-icon {
+  font-size: 4rem;
+  color: var(--mainBlue);
+  transition: all 0.5s ease-in-out;
+}
+.question-icon:hover {
+  transform: translateY(-10%);
+  color: var(--mainBlue);
+}
