@@ -218,3 +218,18 @@ body {
 .img-container:hover .featured-link {
   opacity: 1;
 }
+
+/* footer icons */
+.footer {
+  background: var(--mainBlack);
+  color: var(--mainGrey);
+}
+.footer-icon {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--mainBlue);
+  transition: all 1s ease-in-out;
+}
+.footer-icon:hover {
+  color: var(--mainBlue);
+}
