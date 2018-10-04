@@ -39,6 +39,9 @@ body {
 /* navbar */
 .navbar {
   background: var(--mainWhite);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 .navbar-brand {
   color: var(--mainBlack);
